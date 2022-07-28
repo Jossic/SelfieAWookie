@@ -1,6 +1,6 @@
 namespace TestWebApi;
 
-public class UnitTest1
+public class SelfieControllerSpecs
 {
     [Fact]
     public void Test1()

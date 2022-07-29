@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "p14ZM2MpWCtFhGLy7MIcjATlVkt/dkYqIl6emFxUKCM9OVr8EEIA3ICMRStOS2WmqhCQtVcRzouX6l+/TZ9h/g==",
+  "dgSpecHash": "bnBSc6zKsJj7oJgZRkbdgPDzKWYQ4I2AuJNmyRNuzG8XV6HKJm8cryTiOVC4SW7eW48H9BtIfJeskWWc3//hHA==",
   "success": true,
   "projectFilePath": "C:\\Users\\JossicLapierre\\RiderProjects\\Training\\SelfieAWookie.API.UI\\TestWebApi\\TestWebApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\JossicLapierre\\.nuget\\packages\\coverlet.collector\\3.1.2\\coverlet.collector.3.1.2.nupkg.sha512",
+    "C:\\Users\\JossicLapierre\\.nuget\\packages\\fluentassertions\\6.7.0\\fluentassertions.6.7.0.nupkg.sha512",
     "C:\\Users\\JossicLapierre\\.nuget\\packages\\humanizer.core\\2.2.0\\humanizer.core.2.2.0.nupkg.sha512",
     "C:\\Users\\JossicLapierre\\.nuget\\packages\\messagepack\\2.1.152\\messagepack.2.1.152.nupkg.sha512",
     "C:\\Users\\JossicLapierre\\.nuget\\packages\\messagepack.annotations\\2.1.152\\messagepack.annotations.2.1.152.nupkg.sha512",

@@ -1,0 +1,10 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=9c302852_002Dfe69_002D4e2d_002Daa02_002D8eea6a0bdc3e/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="Session" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;And&gt;&#xD;
+    &lt;TestAncestor&gt;&#xD;
+      &lt;TestId&gt;xUnit::8A46556B-B0C5-4D2A-9566-4661EE44B6AE::net6.0::TestWebApi.SelfieControllerSpecs.Should_return_a_list_of_selfies&lt;/TestId&gt;&#xD;
+    &lt;/TestAncestor&gt;&#xD;
+    &lt;Project Location="C:\Users\JossicLapierre\RiderProjects\Training\SelfieAWookie.API.UI\TestWebApi" Presentation="&amp;lt;Tests&amp;gt;\&amp;lt;TestWebApi&amp;gt;" /&gt;&#xD;
+    &lt;Namespace&gt;TestWebApi&lt;/Namespace&gt;&#xD;
+  &lt;/And&gt;&#xD;
+&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>

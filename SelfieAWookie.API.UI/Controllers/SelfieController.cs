@@ -17,6 +17,6 @@ namespace SelfieAWookie.API.UI.Controllers;
         {
               
             var model =Enumerable.Range(1, 10).Select(wookie => new Selfie(wookie));
-            return this.Ok(model);
+            return Ok(model);
         } 
     }

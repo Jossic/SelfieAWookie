@@ -2836,6 +2836,16 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XDocument.dll": {}
         }
+      },
+      "SelfieAWookie.Core.Selfies.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/SelfieAWookie.Core.Selfies.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SelfieAWookie.Core.Selfies.Domain.dll": {}
+        }
       }
     }
   },
@@ -8824,11 +8834,17 @@
         "system.xml.xdocument.4.3.0.nupkg.sha512",
         "system.xml.xdocument.nuspec"
       ]
+    },
+    "SelfieAWookie.Core.Selfies.Domain/1.0.0": {
+      "type": "project",
+      "path": "../SelfieAWookie.Core.Selfies.Domain/SelfieAWookie.Core.Selfies.Domain.csproj",
+      "msbuildProject": "../SelfieAWookie.Core.Selfies.Domain/SelfieAWookie.Core.Selfies.Domain.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
       "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 6.0.7",
+      "SelfieAWookie.Core.Selfies.Domain >= 1.0.0",
       "Swashbuckle.AspNetCore >= 6.2.3"
     ]
   },
@@ -8863,7 +8879,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\JossicLapierre\\RiderProjects\\Training\\SelfieAWookie.API.UI\\SelfieAWookie.Core.Selfies.Domain\\SelfieAWookie.Core.Selfies.Domain.csproj": {
+              "projectPath": "C:\\Users\\JossicLapierre\\RiderProjects\\Training\\SelfieAWookie.API.UI\\SelfieAWookie.Core.Selfies.Domain\\SelfieAWookie.Core.Selfies.Domain.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

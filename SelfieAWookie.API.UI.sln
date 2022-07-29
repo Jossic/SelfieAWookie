@@ -6,6 +6,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestWebApi", "TestWebApi\Te
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{E5B627A4-D675-4F51-8B63-6D8047B9C8EF}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Libs", "Libs", "{F8C6537A-3AD0-4618-8752-F94F625DEB38}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SelfieAWookie.Core.Selfies.Domain", "SelfieAWookie.Core.Selfies.Domain\SelfieAWookie.Core.Selfies.Domain.csproj", "{885B666B-C34C-46C7-83AF-BB82696EA613}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -20,8 +24,13 @@ Global
 		{8A46556B-B0C5-4D2A-9566-4661EE44B6AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8A46556B-B0C5-4D2A-9566-4661EE44B6AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8A46556B-B0C5-4D2A-9566-4661EE44B6AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{885B666B-C34C-46C7-83AF-BB82696EA613}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{885B666B-C34C-46C7-83AF-BB82696EA613}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{885B666B-C34C-46C7-83AF-BB82696EA613}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{885B666B-C34C-46C7-83AF-BB82696EA613}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{8A46556B-B0C5-4D2A-9566-4661EE44B6AE} = {E5B627A4-D675-4F51-8B63-6D8047B9C8EF}
+		{885B666B-C34C-46C7-83AF-BB82696EA613} = {F8C6537A-3AD0-4618-8752-F94F625DEB38}
 	EndGlobalSection
 EndGlobal

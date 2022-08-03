@@ -1,4 +1,5 @@
 using FluentAssertions;
+using Microsoft.AspNetCore.Mvc;
 using NuGet.Protocol;
 using SelfieAWookie.API.UI.Controllers;
 
@@ -10,14 +11,16 @@ public class SelfieControllerSpecs
     public void Should_return_a_list_of_selfies()
     {
         // Arrange
-        var controller = new SelfieController();
+        var controller = new SelfieController(null);
         
         
         // Act
-        var result = controller.Get().ToList();
+        var result = controller.Get();
 
         // Assert
         result.Should().NotBeNull();
-        result.GetEnumerator().MoveNext().Should().BeTrue();
+        // var okResult = result as OkObjectResult;
+        // okResult!.Value.Should().NotBeNull();
+        result.Should().BeOfType<OkObjectResult>();
     }
 }

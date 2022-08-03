@@ -1,3 +1,10 @@
-﻿namespace SelfieAWookie.Core.Selfies.Domain;
+﻿using System.Text.Json.Serialization;
 
-public sealed record Wookie(int Id, List<Selfie> Selfies);
+namespace SelfieAWookie.Core.Selfies.Domain;
+
+public class Wookie
+{
+    public int Id { get; set; }
+    
+    public List<Selfie> Selfies { get; set; }
+}

@@ -19,7 +19,7 @@ namespace SelfieAWookie.Core.Selfies.Infrastructures.Repository
 
         public ICollection<Selfie> GetAll()
         {
-            return _context.Selfies!.Include(item => item.Wookie).ToList()
+            return _context.Selfies!.Include(item => item.Wookie).ToList();
         }
     }
 }

@@ -10,3 +10,15 @@ C:\Users\JossicLapierre\RiderProjects\Training\SelfieAWookie.API.UI\SelfieAWooki
 C:\Users\JossicLapierre\RiderProjects\Training\SelfieAWookie.API.UI\SelfieAWookie.Core.Selfies.Domain\obj\Debug\net6.0\refint\SelfieAWookie.Core.Selfies.Domain.dll
 C:\Users\JossicLapierre\RiderProjects\Training\SelfieAWookie.API.UI\SelfieAWookie.Core.Selfies.Domain\obj\Debug\net6.0\SelfieAWookie.Core.Selfies.Domain.pdb
 C:\Users\JossicLapierre\RiderProjects\Training\SelfieAWookie.API.UI\SelfieAWookie.Core.Selfies.Domain\obj\Debug\net6.0\ref\SelfieAWookie.Core.Selfies.Domain.dll
+C:\Users\jossi\Dropbox\JOSSIC\6-development\Devs\SelfieAWookie\SelfieAWookie.Core.Selfies.Domain\bin\Debug\net6.0\SelfieAWookie.Core.Selfies.Domain.deps.json
+C:\Users\jossi\Dropbox\JOSSIC\6-development\Devs\SelfieAWookie\SelfieAWookie.Core.Selfies.Domain\bin\Debug\net6.0\SelfieAWookie.Core.Selfies.Domain.dll
+C:\Users\jossi\Dropbox\JOSSIC\6-development\Devs\SelfieAWookie\SelfieAWookie.Core.Selfies.Domain\bin\Debug\net6.0\SelfieAWookie.Core.Selfies.Domain.pdb
+C:\Users\jossi\Dropbox\JOSSIC\6-development\Devs\SelfieAWookie\SelfieAWookie.Core.Selfies.Domain\obj\Debug\net6.0\SelfieAWookie.Core.Selfies.Domain.csproj.AssemblyReference.cache
+C:\Users\jossi\Dropbox\JOSSIC\6-development\Devs\SelfieAWookie\SelfieAWookie.Core.Selfies.Domain\obj\Debug\net6.0\SelfieAWookie.Core.Selfies.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jossi\Dropbox\JOSSIC\6-development\Devs\SelfieAWookie\SelfieAWookie.Core.Selfies.Domain\obj\Debug\net6.0\SelfieAWookie.Core.Selfies.Domain.AssemblyInfoInputs.cache
+C:\Users\jossi\Dropbox\JOSSIC\6-development\Devs\SelfieAWookie\SelfieAWookie.Core.Selfies.Domain\obj\Debug\net6.0\SelfieAWookie.Core.Selfies.Domain.AssemblyInfo.cs
+C:\Users\jossi\Dropbox\JOSSIC\6-development\Devs\SelfieAWookie\SelfieAWookie.Core.Selfies.Domain\obj\Debug\net6.0\SelfieAWookie.Core.Selfies.Domain.csproj.CoreCompileInputs.cache
+C:\Users\jossi\Dropbox\JOSSIC\6-development\Devs\SelfieAWookie\SelfieAWookie.Core.Selfies.Domain\obj\Debug\net6.0\SelfieAWookie.Core.Selfies.Domain.dll
+C:\Users\jossi\Dropbox\JOSSIC\6-development\Devs\SelfieAWookie\SelfieAWookie.Core.Selfies.Domain\obj\Debug\net6.0\refint\SelfieAWookie.Core.Selfies.Domain.dll
+C:\Users\jossi\Dropbox\JOSSIC\6-development\Devs\SelfieAWookie\SelfieAWookie.Core.Selfies.Domain\obj\Debug\net6.0\SelfieAWookie.Core.Selfies.Domain.pdb
+C:\Users\jossi\Dropbox\JOSSIC\6-development\Devs\SelfieAWookie\SelfieAWookie.Core.Selfies.Domain\obj\Debug\net6.0\ref\SelfieAWookie.Core.Selfies.Domain.dll

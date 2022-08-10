@@ -3550,9 +3550,22 @@
           "Microsoft.AspNetCore.App"
         ]
       },
+      "SelfieAWookie.Core.Framework/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/SelfieAWookie.Core.Framework.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SelfieAWookie.Core.Framework.dll": {}
+        }
+      },
       "SelfieAWookie.Core.Selfies.Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "SelfieAWookie.Core.Framework": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/SelfieAWookie.Core.Selfies.Domain.dll": {}
         },
@@ -3567,6 +3580,7 @@
           "Microsoft.EntityFrameworkCore": "6.0.7",
           "Microsoft.EntityFrameworkCore.Relational": "6.0.7",
           "Microsoft.EntityFrameworkCore.SqlServer": "6.0.7",
+          "SelfieAWookie.Core.Framework": "1.0.0",
           "SelfieAWookie.Core.Selfies.Domain": "1.0.0"
         },
         "compile": {
@@ -10912,6 +10926,11 @@
       "type": "project",
       "path": "../SelfieAWookie.API.UI/SelfieAWookie.API.UI.csproj",
       "msbuildProject": "../SelfieAWookie.API.UI/SelfieAWookie.API.UI.csproj"
+    },
+    "SelfieAWookie.Core.Framework/1.0.0": {
+      "type": "project",
+      "path": "../SelfieAWookie.Core.Framework/SelfieAWookie.Core.Framework.csproj",
+      "msbuildProject": "../SelfieAWookie.Core.Framework/SelfieAWookie.Core.Framework.csproj"
     },
     "SelfieAWookie.Core.Selfies.Domain/1.0.0": {
       "type": "project",

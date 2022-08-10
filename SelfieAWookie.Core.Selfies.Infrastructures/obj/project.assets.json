@@ -635,9 +635,22 @@
           }
         }
       },
+      "SelfieAWookie.Core.Framework/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/SelfieAWookie.Core.Framework.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SelfieAWookie.Core.Framework.dll": {}
+        }
+      },
       "SelfieAWookie.Core.Selfies.Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "SelfieAWookie.Core.Framework": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/SelfieAWookie.Core.Selfies.Domain.dll": {}
         },
@@ -1865,6 +1878,11 @@
         "version.txt"
       ]
     },
+    "SelfieAWookie.Core.Framework/1.0.0": {
+      "type": "project",
+      "path": "../SelfieAWookie.Core.Framework/SelfieAWookie.Core.Framework.csproj",
+      "msbuildProject": "../SelfieAWookie.Core.Framework/SelfieAWookie.Core.Framework.csproj"
+    },
     "SelfieAWookie.Core.Selfies.Domain/1.0.0": {
       "type": "project",
       "path": "../SelfieAWookie.Core.Selfies.Domain/SelfieAWookie.Core.Selfies.Domain.csproj",
@@ -1877,6 +1895,7 @@
       "Microsoft.EntityFrameworkCore.Relational >= 6.0.7",
       "Microsoft.EntityFrameworkCore.SqlServer >= 6.0.7",
       "Microsoft.EntityFrameworkCore.Tools >= 6.0.7",
+      "SelfieAWookie.Core.Framework >= 1.0.0",
       "SelfieAWookie.Core.Selfies.Domain >= 1.0.0"
     ]
   },
@@ -1908,6 +1927,9 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
+            "C:\\Users\\jossi\\Dropbox\\JOSSIC\\6-development\\Devs\\SelfieAWookie\\SelfieAWookie.Core.Framework\\SelfieAWookie.Core.Framework.csproj": {
+              "projectPath": "C:\\Users\\jossi\\Dropbox\\JOSSIC\\6-development\\Devs\\SelfieAWookie\\SelfieAWookie.Core.Framework\\SelfieAWookie.Core.Framework.csproj"
+            },
             "C:\\Users\\jossi\\Dropbox\\JOSSIC\\6-development\\Devs\\SelfieAWookie\\SelfieAWookie.Core.Selfies.Domain\\SelfieAWookie.Core.Selfies.Domain.csproj": {
               "projectPath": "C:\\Users\\jossi\\Dropbox\\JOSSIC\\6-development\\Devs\\SelfieAWookie\\SelfieAWookie.Core.Selfies.Domain\\SelfieAWookie.Core.Selfies.Domain.csproj"
             }

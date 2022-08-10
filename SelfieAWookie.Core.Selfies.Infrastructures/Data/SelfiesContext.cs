@@ -1,11 +1,12 @@
 using System.Diagnostics.CodeAnalysis;
 using Microsoft.EntityFrameworkCore;
+using SelfieAWookie.Core.Framework;
 using SelfieAWookie.Core.Selfies.Domain;
 using SelfieAWookie.Core.Selfies.Infrastructures.Data.TypeConfiguration;
 
 namespace SelfieAWookie.Core.Selfies.Infrastructures.Data;
 
-public class SelfiesContext : DbContext
+public class SelfiesContext : DbContext, IUnitOfWork
 {
     public DbSet<Selfie>? Selfies { get; private set; }
     public DbSet<Wookie>? Wookies { get; private set; }

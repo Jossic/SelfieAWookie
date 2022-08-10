@@ -1,4 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using SelfieAWookie.Core.Framework;
 using SelfieAWookie.Core.Selfies.Domain;
 using SelfieAWookie.Core.Selfies.Infrastructures.Data;
 using System;
@@ -17,9 +18,11 @@ namespace SelfieAWookie.Core.Selfies.Infrastructures.Repository
             _context = context;
         }
 
+
         public ICollection<Selfie> GetAll()
         {
             return _context.Selfies!.Include(item => item.Wookie).ToList();
         }
+        public IUnitOfWork UnitOfWork => _context;
     }
 }

@@ -43,12 +43,12 @@ public class SelfieControllerSpecs
             new Selfie() {Wookie = new Wookie()},
             new Selfie() {Wookie = new Wookie()}
         };
-        repositoryMock.Setup(item => item.GetAll()).Returns(expectedList);
+        repositoryMock.Setup(item => item.GetAll(0)).Returns(expectedList);
 
         var controller = new SelfieController(repositoryMock.Object);
 
         // Act
-        var result = controller.Get();
+        var result = controller.GetAll();
         var okResult = result as OkObjectResult;
         List<SelfieResumeDto> list = okResult.Value as List<SelfieResumeDto>;
 

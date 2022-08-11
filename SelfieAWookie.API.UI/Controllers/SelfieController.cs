@@ -9,15 +9,51 @@ namespace SelfieAWookie.API.UI.Controllers;
 public class SelfieController : ControllerBase
 {
     private readonly ISelfieRepository _repository;
-    public SelfieController(ISelfieRepository repository) => _repository = repository;
+    private readonly IWebHostEnvironment _webHostEnvironment;
+
+    public SelfieController(ISelfieRepository repository, IWebHostEnvironment webHostEnvironment)
+    {
+        _repository = repository;
+        _webHostEnvironment = webHostEnvironment;
+    }
 
 
     [HttpGet]
-    public IActionResult Get()
+    public IActionResult GetAll([FromQuery] int wookieId = 0)
     {
-        var selfiesList = _repository.GetAll();
+        var selfiesList = _repository.GetAll(wookieId);
         var model = selfiesList.Select(item => new SelfieResumeDto() { Title = item.Title, WookieId = item.Wookie.Id, NbSelfiesFromWookie = (item.Wookie?.Selfies?.Count).GetValueOrDefault(0) }).ToList();
         return Ok(model);
+    }
+
+    //[Route("photos")]
+    //[HttpPost]
+    //public async Task<IActionResult> AddPicture()
+    //{
+    //    using var stream = new StreamReader(Request.Body);
+
+    //    var content = await stream.ReadToEndAsync();
+
+    //    return Ok();
+    //}
+
+    [Route("photos")]
+    [HttpPost]
+    public async Task<IActionResult> AddPicture(IFormFile picture)
+    {
+        string filePath = Path.Combine(_webHostEnvironment.ContentRootPath, @"images\selfies");
+
+        if (!Directory.Exists(filePath))
+        {
+            Directory.CreateDirectory(filePath);
+        }
+        filePath = Path.Combine(filePath, picture.FileName);
+
+
+        using var stream = new FileStream(filePath, FileMode.OpenOrCreate);
+        await picture.CopyToAsync(stream);
+
+        return Ok();
     }
 
     [HttpPost]

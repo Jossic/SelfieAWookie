@@ -2610,7 +2610,15 @@
           "SelfieAWookie.API.UI.dll": {}
         }
       },
+      "SelfieAWookie.Core.Framework/1.0.0": {
+        "runtime": {
+          "SelfieAWookie.Core.Framework.dll": {}
+        }
+      },
       "SelfieAWookie.Core.Selfies.Domain/1.0.0": {
+        "dependencies": {
+          "SelfieAWookie.Core.Framework": "1.0.0"
+        },
         "runtime": {
           "SelfieAWookie.Core.Selfies.Domain.dll": {}
         }
@@ -2620,6 +2628,7 @@
           "Microsoft.EntityFrameworkCore": "6.0.7",
           "Microsoft.EntityFrameworkCore.Relational": "6.0.7",
           "Microsoft.EntityFrameworkCore.SqlServer": "6.0.7",
+          "SelfieAWookie.Core.Framework": "1.0.0",
           "SelfieAWookie.Core.Selfies.Domain": "1.0.0"
         },
         "runtime": {
@@ -3979,6 +3988,11 @@
       "hashPath": "xunit.runner.visualstudio.2.4.3.nupkg.sha512"
     },
     "SelfieAWookie.API.UI/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SelfieAWookie.Core.Framework/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

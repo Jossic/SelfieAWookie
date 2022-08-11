@@ -2,11 +2,6 @@
 using SelfieAWookie.Core.Framework;
 using SelfieAWookie.Core.Selfies.Domain;
 using SelfieAWookie.Core.Selfies.Infrastructures.Data;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace SelfieAWookie.Core.Selfies.Infrastructures.Repository
 {
@@ -19,10 +14,10 @@ namespace SelfieAWookie.Core.Selfies.Infrastructures.Repository
         }
 
 
-        public ICollection<Selfie> GetAll()
-        {
-            return _context.Selfies!.Include(item => item.Wookie).ToList();
-        }
+        public ICollection<Selfie> GetAll() => _context.Selfies!.Include(item => item.Wookie).ToList();
+
+        public Selfie AddOne(Selfie item) => _context.Selfies.Add(item).Entity;
+
         public IUnitOfWork UnitOfWork => _context;
     }
 }

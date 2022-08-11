@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\jossi\\Dropbox\\JOSSIC\\6-development\\Devs\\SelfieAWookie\\TestWebApi\\TestWebApi.csproj": {}
+    "C:\\Users\\JossicLapierre\\Dropbox\\JOSSIC\\6-development\\Devs\\SelfieAWookie\\TestWebApi\\TestWebApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\jossi\\Dropbox\\JOSSIC\\6-development\\Devs\\SelfieAWookie\\SelfieAWookie.API.UI\\SelfieAWookie.API.UI.csproj": {
+    "C:\\Users\\JossicLapierre\\Dropbox\\JOSSIC\\6-development\\Devs\\SelfieAWookie\\SelfieAWookie.API.UI\\SelfieAWookie.API.UI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jossi\\Dropbox\\JOSSIC\\6-development\\Devs\\SelfieAWookie\\SelfieAWookie.API.UI\\SelfieAWookie.API.UI.csproj",
+        "projectUniqueName": "C:\\Users\\JossicLapierre\\Dropbox\\JOSSIC\\6-development\\Devs\\SelfieAWookie\\SelfieAWookie.API.UI\\SelfieAWookie.API.UI.csproj",
         "projectName": "SelfieAWookie.API.UI",
-        "projectPath": "C:\\Users\\jossi\\Dropbox\\JOSSIC\\6-development\\Devs\\SelfieAWookie\\SelfieAWookie.API.UI\\SelfieAWookie.API.UI.csproj",
-        "packagesPath": "C:\\Users\\jossi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jossi\\Dropbox\\JOSSIC\\6-development\\Devs\\SelfieAWookie\\SelfieAWookie.API.UI\\obj\\",
+        "projectPath": "C:\\Users\\JossicLapierre\\Dropbox\\JOSSIC\\6-development\\Devs\\SelfieAWookie\\SelfieAWookie.API.UI\\SelfieAWookie.API.UI.csproj",
+        "packagesPath": "C:\\Users\\JossicLapierre\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\JossicLapierre\\Dropbox\\JOSSIC\\6-development\\Devs\\SelfieAWookie\\SelfieAWookie.API.UI\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\jossi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\JossicLapierre\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,18 +26,17 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://nuget.org": {},
-          "https://www.nuget.org/api/v2/": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\jossi\\Dropbox\\JOSSIC\\6-development\\Devs\\SelfieAWookie\\SelfieAWookie.Core.Selfies.Domain\\SelfieAWookie.Core.Selfies.Domain.csproj": {
-                "projectPath": "C:\\Users\\jossi\\Dropbox\\JOSSIC\\6-development\\Devs\\SelfieAWookie\\SelfieAWookie.Core.Selfies.Domain\\SelfieAWookie.Core.Selfies.Domain.csproj"
+              "C:\\Users\\JossicLapierre\\Dropbox\\JOSSIC\\6-development\\Devs\\SelfieAWookie\\SelfieAWookie.Core.Selfies.Domain\\SelfieAWookie.Core.Selfies.Domain.csproj": {
+                "projectPath": "C:\\Users\\JossicLapierre\\Dropbox\\JOSSIC\\6-development\\Devs\\SelfieAWookie\\SelfieAWookie.Core.Selfies.Domain\\SelfieAWookie.Core.Selfies.Domain.csproj"
               },
-              "C:\\Users\\jossi\\Dropbox\\JOSSIC\\6-development\\Devs\\SelfieAWookie\\SelfieAWookie.Core.Selfies.Infrastructures\\SelfieAWookie.Core.Selfies.Infrastructures.csproj": {
-                "projectPath": "C:\\Users\\jossi\\Dropbox\\JOSSIC\\6-development\\Devs\\SelfieAWookie\\SelfieAWookie.Core.Selfies.Infrastructures\\SelfieAWookie.Core.Selfies.Infrastructures.csproj"
+              "C:\\Users\\JossicLapierre\\Dropbox\\JOSSIC\\6-development\\Devs\\SelfieAWookie\\SelfieAWookie.Core.Selfies.Infrastructures\\SelfieAWookie.Core.Selfies.Infrastructures.csproj": {
+                "projectPath": "C:\\Users\\JossicLapierre\\Dropbox\\JOSSIC\\6-development\\Devs\\SelfieAWookie\\SelfieAWookie.Core.Selfies.Infrastructures\\SelfieAWookie.Core.Selfies.Infrastructures.csproj"
               }
             }
           }
@@ -75,21 +78,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.303\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\jossi\\Dropbox\\JOSSIC\\6-development\\Devs\\SelfieAWookie\\SelfieAWookie.Core.Framework\\SelfieAWookie.Core.Framework.csproj": {
+    "C:\\Users\\JossicLapierre\\Dropbox\\JOSSIC\\6-development\\Devs\\SelfieAWookie\\SelfieAWookie.Core.Framework\\SelfieAWookie.Core.Framework.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jossi\\Dropbox\\JOSSIC\\6-development\\Devs\\SelfieAWookie\\SelfieAWookie.Core.Framework\\SelfieAWookie.Core.Framework.csproj",
+        "projectUniqueName": "C:\\Users\\JossicLapierre\\Dropbox\\JOSSIC\\6-development\\Devs\\SelfieAWookie\\SelfieAWookie.Core.Framework\\SelfieAWookie.Core.Framework.csproj",
         "projectName": "SelfieAWookie.Core.Framework",
-        "projectPath": "C:\\Users\\jossi\\Dropbox\\JOSSIC\\6-development\\Devs\\SelfieAWookie\\SelfieAWookie.Core.Framework\\SelfieAWookie.Core.Framework.csproj",
-        "packagesPath": "C:\\Users\\jossi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jossi\\Dropbox\\JOSSIC\\6-development\\Devs\\SelfieAWookie\\SelfieAWookie.Core.Framework\\obj\\",
+        "projectPath": "C:\\Users\\JossicLapierre\\Dropbox\\JOSSIC\\6-development\\Devs\\SelfieAWookie\\SelfieAWookie.Core.Framework\\SelfieAWookie.Core.Framework.csproj",
+        "packagesPath": "C:\\Users\\JossicLapierre\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\JossicLapierre\\Dropbox\\JOSSIC\\6-development\\Devs\\SelfieAWookie\\SelfieAWookie.Core.Framework\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\jossi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\JossicLapierre\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -97,8 +104,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://nuget.org": {},
-          "https://www.nuget.org/api/v2/": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
@@ -130,21 +136,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.303\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\jossi\\Dropbox\\JOSSIC\\6-development\\Devs\\SelfieAWookie\\SelfieAWookie.Core.Selfies.Domain\\SelfieAWookie.Core.Selfies.Domain.csproj": {
+    "C:\\Users\\JossicLapierre\\Dropbox\\JOSSIC\\6-development\\Devs\\SelfieAWookie\\SelfieAWookie.Core.Selfies.Domain\\SelfieAWookie.Core.Selfies.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jossi\\Dropbox\\JOSSIC\\6-development\\Devs\\SelfieAWookie\\SelfieAWookie.Core.Selfies.Domain\\SelfieAWookie.Core.Selfies.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\JossicLapierre\\Dropbox\\JOSSIC\\6-development\\Devs\\SelfieAWookie\\SelfieAWookie.Core.Selfies.Domain\\SelfieAWookie.Core.Selfies.Domain.csproj",
         "projectName": "SelfieAWookie.Core.Selfies.Domain",
-        "projectPath": "C:\\Users\\jossi\\Dropbox\\JOSSIC\\6-development\\Devs\\SelfieAWookie\\SelfieAWookie.Core.Selfies.Domain\\SelfieAWookie.Core.Selfies.Domain.csproj",
-        "packagesPath": "C:\\Users\\jossi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jossi\\Dropbox\\JOSSIC\\6-development\\Devs\\SelfieAWookie\\SelfieAWookie.Core.Selfies.Domain\\obj\\",
+        "projectPath": "C:\\Users\\JossicLapierre\\Dropbox\\JOSSIC\\6-development\\Devs\\SelfieAWookie\\SelfieAWookie.Core.Selfies.Domain\\SelfieAWookie.Core.Selfies.Domain.csproj",
+        "packagesPath": "C:\\Users\\JossicLapierre\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\JossicLapierre\\Dropbox\\JOSSIC\\6-development\\Devs\\SelfieAWookie\\SelfieAWookie.Core.Selfies.Domain\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\jossi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\JossicLapierre\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -152,15 +162,14 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://nuget.org": {},
-          "https://www.nuget.org/api/v2/": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\jossi\\Dropbox\\JOSSIC\\6-development\\Devs\\SelfieAWookie\\SelfieAWookie.Core.Framework\\SelfieAWookie.Core.Framework.csproj": {
-                "projectPath": "C:\\Users\\jossi\\Dropbox\\JOSSIC\\6-development\\Devs\\SelfieAWookie\\SelfieAWookie.Core.Framework\\SelfieAWookie.Core.Framework.csproj"
+              "C:\\Users\\JossicLapierre\\Dropbox\\JOSSIC\\6-development\\Devs\\SelfieAWookie\\SelfieAWookie.Core.Framework\\SelfieAWookie.Core.Framework.csproj": {
+                "projectPath": "C:\\Users\\JossicLapierre\\Dropbox\\JOSSIC\\6-development\\Devs\\SelfieAWookie\\SelfieAWookie.Core.Framework\\SelfieAWookie.Core.Framework.csproj"
               }
             }
           }
@@ -189,21 +198,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.303\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\jossi\\Dropbox\\JOSSIC\\6-development\\Devs\\SelfieAWookie\\SelfieAWookie.Core.Selfies.Infrastructures\\SelfieAWookie.Core.Selfies.Infrastructures.csproj": {
+    "C:\\Users\\JossicLapierre\\Dropbox\\JOSSIC\\6-development\\Devs\\SelfieAWookie\\SelfieAWookie.Core.Selfies.Infrastructures\\SelfieAWookie.Core.Selfies.Infrastructures.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jossi\\Dropbox\\JOSSIC\\6-development\\Devs\\SelfieAWookie\\SelfieAWookie.Core.Selfies.Infrastructures\\SelfieAWookie.Core.Selfies.Infrastructures.csproj",
+        "projectUniqueName": "C:\\Users\\JossicLapierre\\Dropbox\\JOSSIC\\6-development\\Devs\\SelfieAWookie\\SelfieAWookie.Core.Selfies.Infrastructures\\SelfieAWookie.Core.Selfies.Infrastructures.csproj",
         "projectName": "SelfieAWookie.Core.Selfies.Infrastructures",
-        "projectPath": "C:\\Users\\jossi\\Dropbox\\JOSSIC\\6-development\\Devs\\SelfieAWookie\\SelfieAWookie.Core.Selfies.Infrastructures\\SelfieAWookie.Core.Selfies.Infrastructures.csproj",
-        "packagesPath": "C:\\Users\\jossi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jossi\\Dropbox\\JOSSIC\\6-development\\Devs\\SelfieAWookie\\SelfieAWookie.Core.Selfies.Infrastructures\\obj\\",
+        "projectPath": "C:\\Users\\JossicLapierre\\Dropbox\\JOSSIC\\6-development\\Devs\\SelfieAWookie\\SelfieAWookie.Core.Selfies.Infrastructures\\SelfieAWookie.Core.Selfies.Infrastructures.csproj",
+        "packagesPath": "C:\\Users\\JossicLapierre\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\JossicLapierre\\Dropbox\\JOSSIC\\6-development\\Devs\\SelfieAWookie\\SelfieAWookie.Core.Selfies.Infrastructures\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\jossi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\JossicLapierre\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -211,18 +224,17 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://nuget.org": {},
-          "https://www.nuget.org/api/v2/": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\jossi\\Dropbox\\JOSSIC\\6-development\\Devs\\SelfieAWookie\\SelfieAWookie.Core.Framework\\SelfieAWookie.Core.Framework.csproj": {
-                "projectPath": "C:\\Users\\jossi\\Dropbox\\JOSSIC\\6-development\\Devs\\SelfieAWookie\\SelfieAWookie.Core.Framework\\SelfieAWookie.Core.Framework.csproj"
+              "C:\\Users\\JossicLapierre\\Dropbox\\JOSSIC\\6-development\\Devs\\SelfieAWookie\\SelfieAWookie.Core.Framework\\SelfieAWookie.Core.Framework.csproj": {
+                "projectPath": "C:\\Users\\JossicLapierre\\Dropbox\\JOSSIC\\6-development\\Devs\\SelfieAWookie\\SelfieAWookie.Core.Framework\\SelfieAWookie.Core.Framework.csproj"
               },
-              "C:\\Users\\jossi\\Dropbox\\JOSSIC\\6-development\\Devs\\SelfieAWookie\\SelfieAWookie.Core.Selfies.Domain\\SelfieAWookie.Core.Selfies.Domain.csproj": {
-                "projectPath": "C:\\Users\\jossi\\Dropbox\\JOSSIC\\6-development\\Devs\\SelfieAWookie\\SelfieAWookie.Core.Selfies.Domain\\SelfieAWookie.Core.Selfies.Domain.csproj"
+              "C:\\Users\\JossicLapierre\\Dropbox\\JOSSIC\\6-development\\Devs\\SelfieAWookie\\SelfieAWookie.Core.Selfies.Domain\\SelfieAWookie.Core.Selfies.Domain.csproj": {
+                "projectPath": "C:\\Users\\JossicLapierre\\Dropbox\\JOSSIC\\6-development\\Devs\\SelfieAWookie\\SelfieAWookie.Core.Selfies.Domain\\SelfieAWookie.Core.Selfies.Domain.csproj"
               }
             }
           }
@@ -271,21 +283,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.303\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\jossi\\Dropbox\\JOSSIC\\6-development\\Devs\\SelfieAWookie\\TestWebApi\\TestWebApi.csproj": {
+    "C:\\Users\\JossicLapierre\\Dropbox\\JOSSIC\\6-development\\Devs\\SelfieAWookie\\TestWebApi\\TestWebApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jossi\\Dropbox\\JOSSIC\\6-development\\Devs\\SelfieAWookie\\TestWebApi\\TestWebApi.csproj",
+        "projectUniqueName": "C:\\Users\\JossicLapierre\\Dropbox\\JOSSIC\\6-development\\Devs\\SelfieAWookie\\TestWebApi\\TestWebApi.csproj",
         "projectName": "TestWebApi",
-        "projectPath": "C:\\Users\\jossi\\Dropbox\\JOSSIC\\6-development\\Devs\\SelfieAWookie\\TestWebApi\\TestWebApi.csproj",
-        "packagesPath": "C:\\Users\\jossi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jossi\\Dropbox\\JOSSIC\\6-development\\Devs\\SelfieAWookie\\TestWebApi\\obj\\",
+        "projectPath": "C:\\Users\\JossicLapierre\\Dropbox\\JOSSIC\\6-development\\Devs\\SelfieAWookie\\TestWebApi\\TestWebApi.csproj",
+        "packagesPath": "C:\\Users\\JossicLapierre\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\JossicLapierre\\Dropbox\\JOSSIC\\6-development\\Devs\\SelfieAWookie\\TestWebApi\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\jossi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\JossicLapierre\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -293,15 +309,14 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://nuget.org": {},
-          "https://www.nuget.org/api/v2/": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\jossi\\Dropbox\\JOSSIC\\6-development\\Devs\\SelfieAWookie\\SelfieAWookie.API.UI\\SelfieAWookie.API.UI.csproj": {
-                "projectPath": "C:\\Users\\jossi\\Dropbox\\JOSSIC\\6-development\\Devs\\SelfieAWookie\\SelfieAWookie.API.UI\\SelfieAWookie.API.UI.csproj"
+              "C:\\Users\\JossicLapierre\\Dropbox\\JOSSIC\\6-development\\Devs\\SelfieAWookie\\SelfieAWookie.API.UI\\SelfieAWookie.API.UI.csproj": {
+                "projectPath": "C:\\Users\\JossicLapierre\\Dropbox\\JOSSIC\\6-development\\Devs\\SelfieAWookie\\SelfieAWookie.API.UI\\SelfieAWookie.API.UI.csproj"
               }
             }
           }
@@ -360,7 +375,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.303\\RuntimeIdentifierGraph.json"
         }
       }
     }

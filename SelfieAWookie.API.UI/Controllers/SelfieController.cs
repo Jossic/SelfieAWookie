@@ -53,7 +53,10 @@ public class SelfieController : ControllerBase
         using var stream = new FileStream(filePath, FileMode.OpenOrCreate);
         await picture.CopyToAsync(stream);
 
-        return Ok();
+       var itemFile =  _repository.AddOnePicture(filePath);
+        _repository.UnitOfWork.SaveChanges();
+
+        return Ok(itemFile);
     }
 
     [HttpPost]

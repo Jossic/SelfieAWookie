@@ -17,6 +17,7 @@ public class SelfieControllerSpecs
         SelfieDto selfie = new SelfieDto();
         var repositoryMock = new Mock<ISelfieRepository>();
         var unit = new Mock<IUnitOfWork>();
+
         repositoryMock.Setup(item => item.UnitOfWork).Returns(unit.Object);
         repositoryMock.Setup(item => item.AddOne(It.IsAny<Selfie>())).Returns(new Selfie() { Id = 4 });
 

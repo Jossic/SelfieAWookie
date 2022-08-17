@@ -26,6 +26,8 @@ namespace SelfieAWookie.Core.Selfies.Infrastructures.Repository
 
         public Selfie AddOne(Selfie item) => _context.Selfies.Add(item).Entity;
 
+        public Picture AddOnePicture(string url) => _context.Picture.Add(new Picture() { Url = url }).Entity;
+
 
         public IUnitOfWork UnitOfWork => _context;
     }

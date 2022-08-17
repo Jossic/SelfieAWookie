@@ -10,6 +10,8 @@ public class SelfiesContext : DbContext, IUnitOfWork
 {
     public DbSet<Selfie>? Selfies { get; private set; }
     public DbSet<Wookie>? Wookies { get; private set; }
+
+    public DbSet<Picture> Picture { get; private set; }
     public SelfiesContext(DbContextOptions options) : base(options) { }
     public SelfiesContext() { }
 

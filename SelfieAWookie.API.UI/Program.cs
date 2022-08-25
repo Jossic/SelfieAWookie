@@ -10,6 +10,7 @@ builder.Services.AddDbContext<SelfiesContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("SelfiesDb")));
 builder.Services.AddInjections();
 builder.Services.AddControllers();
+builder.Services.AddCustomSecurity();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
@@ -24,7 +25,7 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
-
+app.UseCors(SecurityMethods.DEFAULT_POLICY);
 app.UseAuthorization();
 
 app.MapControllers();

@@ -528,6 +528,8 @@ C:\Users\JossicLapierre\Dropbox\JOSSIC\6-development\Devs\SelfieAWookie\SelfieAW
 C:\Users\JossicLapierre\Dropbox\JOSSIC\6-development\Devs\SelfieAWookie\SelfieAWookie.API.UI\obj\Debug\net6.0\SelfieAWookie.API.UI.pdb
 C:\Users\JossicLapierre\Dropbox\JOSSIC\6-development\Devs\SelfieAWookie\SelfieAWookie.API.UI\obj\Debug\net6.0\SelfieAWookie.API.UI.genruntimeconfig.cache
 C:\Users\JossicLapierre\Dropbox\JOSSIC\6-development\Devs\SelfieAWookie\SelfieAWookie.API.UI\obj\Debug\net6.0\ref\SelfieAWookie.API.UI.dll
+C:\Users\JossicLapierre\Dropbox\JOSSIC\6-development\Devs\SelfieAWookie\SelfieAWookie.API.UI\bin\Debug\net6.0\Microsoft.Extensions.Configuration.dll
+C:\Users\JossicLapierre\Dropbox\JOSSIC\6-development\Devs\SelfieAWookie\SelfieAWookie.API.UI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
 C:\Users\jossi\Dropbox\JOSSIC\6-development\Devs\SelfieAWookie\SelfieAWookie.API.UI\bin\Debug\net6.0\appsettings.Development.json
 C:\Users\jossi\Dropbox\JOSSIC\6-development\Devs\SelfieAWookie\SelfieAWookie.API.UI\bin\Debug\net6.0\appsettings.json
 C:\Users\jossi\Dropbox\JOSSIC\6-development\Devs\SelfieAWookie\SelfieAWookie.API.UI\bin\Debug\net6.0\SelfieAWookie.API.UI.exe
@@ -560,6 +562,7 @@ C:\Users\jossi\Dropbox\JOSSIC\6-development\Devs\SelfieAWookie\SelfieAWookie.API
 C:\Users\jossi\Dropbox\JOSSIC\6-development\Devs\SelfieAWookie\SelfieAWookie.API.UI\bin\Debug\net6.0\Microsoft.DotNet.Scaffolding.Shared.dll
 C:\Users\jossi\Dropbox\JOSSIC\6-development\Devs\SelfieAWookie\SelfieAWookie.API.UI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
 C:\Users\jossi\Dropbox\JOSSIC\6-development\Devs\SelfieAWookie\SelfieAWookie.API.UI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\jossi\Dropbox\JOSSIC\6-development\Devs\SelfieAWookie\SelfieAWookie.API.UI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
 C:\Users\jossi\Dropbox\JOSSIC\6-development\Devs\SelfieAWookie\SelfieAWookie.API.UI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
 C:\Users\jossi\Dropbox\JOSSIC\6-development\Devs\SelfieAWookie\SelfieAWookie.API.UI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
 C:\Users\jossi\Dropbox\JOSSIC\6-development\Devs\SelfieAWookie\SelfieAWookie.API.UI\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
@@ -795,3 +798,4 @@ C:\Users\jossi\Dropbox\JOSSIC\6-development\Devs\SelfieAWookie\SelfieAWookie.API
 C:\Users\jossi\Dropbox\JOSSIC\6-development\Devs\SelfieAWookie\SelfieAWookie.API.UI\obj\Debug\net6.0\SelfieAWookie.API.UI.pdb
 C:\Users\jossi\Dropbox\JOSSIC\6-development\Devs\SelfieAWookie\SelfieAWookie.API.UI\obj\Debug\net6.0\SelfieAWookie.API.UI.genruntimeconfig.cache
 C:\Users\jossi\Dropbox\JOSSIC\6-development\Devs\SelfieAWookie\SelfieAWookie.API.UI\obj\Debug\net6.0\ref\SelfieAWookie.API.UI.dll
+C:\Users\JossicLapierre\Dropbox\JOSSIC\6-development\Devs\SelfieAWookie\SelfieAWookie.API.UI\bin\Debug\net6.0\Settings\appSettings.json

@@ -2,9 +2,9 @@
 
 #nullable disable
 
-namespace SelfieAWookie.Core.Selfies.Data.Migrations.Migrations
+namespace SelfieAWookie.Core.Selfies.Infrastructures.Migrations
 {
-    public partial class InitDb : Migration
+    public partial class Initial : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
